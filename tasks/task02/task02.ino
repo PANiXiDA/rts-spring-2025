@@ -2,7 +2,7 @@ volatile uint32_t lastMicros = 0;
 volatile uint32_t intervalSum = 0;
 volatile uint32_t intervalSquaredSum = 0;
 volatile unsigned int sampleCnt = 0;
-const unsigned int maxSamples = 1000;
+const unsigned int maxSamples = 40;
  
 void setup() {
   Serial.begin(115200);
